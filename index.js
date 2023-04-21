@@ -1,6 +1,6 @@
 import TelegramApi from "node-telegram-bot-api";
 // подключаем node-telegram-bot-api
-const token = "5296444275:AAGkXQhObvu_4N-_oyMLmwtfjtCuwjx4-Ao"; // тут токен кторый мы получили от botFather
+const token = "..."; // тут токен кторый мы получили от botFather
 // включаем самого бота
 const bot = new TelegramApi(token, { polling: true });
 
